@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SharpSonof</title>
+  </head>
+  <body>
+    <div class="exterior">
+      <header><h1>SharpSonof</h1></header>
+      <section class="display" id="display">0</section>
+      <section class="buttons">
+        <button class="b1" id="1" onclick="inputF('1')">1</button>
+        <button class="b1" id="2" onclick="inputF('2')">2</button>
+        <button class="b1" id="3" onclick="inputF('3')">3</button>
+        <button class="b1" id="divide" onclick="inputF('/')">/</button>
+        <button class="b1" id="4" onclick="inputF('4')">4</button>
+        <button class="b1" id="5" onclick="inputF('5')">5</button>
+        <button class="b1" id="6" onclick="inputF('6')">6</button>
+        <button class="b1" id="multiply" onclick="inputF('*')">*</button>
+        <button class="b1" id="7" onclick="inputF('7')">7</button>
+        <button class="b1" id="8" onclick="inputF('8')">8</button>
+        <button class="b1" id="9" onclick="inputF('9')">9</button>
+        <button class="b1" id="subtract" onclick="inputF('-')">-</button>
+        <button class="b1" id="0" onclick="inputF('0')">0</button>
+        <button class="b1" id="decimal" onclick="inputF('.')">.</button>
+        <button class="b1 equals" id="equals" onclick="inputF('=')">=</button>
+        <button class="b1" id="add" onclick="inputF('+')">+</button>
+      </section>
+    </div>
+    <script type="module">
+      import { inputF } from "./start.mjs";
+      window.inputF = inputF;
+    </script>
+  </body>
+</html>
