@@ -1,6 +1,6 @@
 # Matela Calculator
 https://matela-cyber.github.io/calculator/
-
+![Alt text](gcal.png)
 SharpSonof Calculator is a powerful and flexible web-based calculator application. It supports basic arithmetic operations, parenthesis handling, implicit multiplication, and advanced functionality such as converting decimal numbers to fractions. The project is built using **HTML**, **CSS**, and **JavaScript**.
 
 ---
